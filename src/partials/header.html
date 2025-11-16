@@ -1,19 +1,49 @@
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+  <div class="header-box">
+    <a href="index.html" class="nav-logo-img"
+      ><picture>
+        <source srcset="../img/logo-min.png, ../img/logo@2x-min.png 2x" />
+        <img src="../img/logo-min.png," alt="logo" /> </picture
+      >Product</a
+    >
+    <nav class="header-navigation">
+      <ul class="header-navigation-unlist">
+        <li class="header-navigation-item">
+          <a href="./index.html" class="header-navigation-link current"
+            >Product</a
+          >
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="nav-list-item">
+          <a href="./pricing.html" class="header-navigation-link">Pricing</a>
+        </li>
+        <li class="nav-list-item">
+          <a href="./customers.html" class="header-navigation-link"
+            >Customers</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a href="./Resourses.html" class="header-navigation-link"
+            >Resources</a
+          >
         </li>
       </ul>
     </nav>
+    <ul class="header-list-btn">
+      <li class="header-button-item">
+        <button type="button" class="header-btn-registration Sign-In">
+          Sign In
+        </button>
+      </li>
+      <li class="header-list-bnt">
+        <button type="button" class="header-btn-registration Sign-Up">
+          Sign Up
+        </button>
+      </li>
+    </ul>
+    <button type="button" class="header-btn-menu" data-menu-open>
+      <span class="header-burger-icon"></span>
+      <span class="header-burger-icon"></span>
+      <span class="header-burger-icon"></span>
+    </button>
   </div>
 </header>

@@ -1,0 +1,66 @@
+.hero-section-title{
+  padding-top: 29px;
+  margin-bottom: 100px;
+  
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 369px;
+  margin: 0 auto;
+}
+.hero-picture{
+  
+  width: 338px;
+  height: 311px;
+}
+.hero-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.hero-title-h{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+font-size: 36px;
+width: 369px;
+line-height: 1.66667;
+text-align: center;
+color: #22343d;
+margin-bottom: 16px;
+}
+.hero-title-paragraph{
+  font-weight: 400;
+font-size: 18px;
+line-height: 1.55556;
+text-align: center;
+color: #22343d;
+width: 326px;
+margin: 0 auto;
+margin-bottom: 32px;
+}
+.hero-title-button{
+  display: flex;
+  gap:28px;
+  align-items: center;
+}
+.button-title{
+  width: 142px;
+  height: 53px;
+  background-color: #02897A;
+  color: #fff;
+  border-radius: 4%;
+  cursor: pointer;
+}
+.button-title-play{
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  gap:9px;
+  fill:#02897A;
+  color: #02897A;
+  cursor: pointer;
+  text-decoration: underline;
+}

@@ -1,0 +1,45 @@
+.boost{
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 100px;
+
+}
+.boost-box{
+    width: 371px;
+    height: 688px;
+    border-radius: 32px;
+    background: #02897a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17px;
+    
+}
+.boost-title-paragraph{
+    font-weight: 600;
+font-size: 32px;
+line-height: 1.514;
+text-align: center;
+color: #fff;
+width: 328px;
+height: 134px;
+margin-bottom: 104px;
+}
+.boost-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #02897a;
+}
+.boost-image-box{
+    padding: 10px;
+width: 371px;
+height: 351px;
+}

@@ -1,0 +1,113 @@
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 323px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 100px;
+}
+.price-title{
+    font-weight: 700;
+font-size: 34px;
+color: #22343d;
+margin-bottom: 8px;
+}
+.price-title-paragraph{
+    font-weight: 500;
+font-size: 16px;
+color: #22343d;
+}
+.price-shadow-box{
+    height: 456px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    width: 323px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    margin-bottom: 16px;
+    color: #22343d;
+}
+.price-subtitle{
+    font-weight: 700;
+font-size: 24px;
+line-height: 1.66667;
+
+margin-bottom: 8px;
+}
+.price-subtitle-paragraph{
+    font-weight: 400;
+font-size: 16px; 
+line-height: 2.5;
+
+margin-bottom: 16px;
+}
+.price-subtitle-number{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 8px;
+}
+.price-number{
+    font-weight: 700;
+font-size: 76px;
+line-height: 1.31579;
+letter-spacing: 0em;
+text-align: center;
+color: #02897a;
+}
+.price-valut-box{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.price-valut{
+font-weight: 700;
+font-size: 24px;
+line-height: 1.25;
+letter-spacing: 0em;
+color: #02897a;
+}
+.price-valut-time{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.01em;
+color: #afafaf;
+}
+.price-unlist{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.375;
+letter-spacing: 0.01em;
+
+margin-bottom: 38px;
+}
+
+.price-button{
+    font-family: "Montserrat", sans-serif;
+    border-radius: 8px;
+width: 139px;
+height: 44px;
+background: #02897a;
+font-weight: 600;
+font-size: 18px;
+color: #fff;
+}
+.price-white-btn{
+    background: #fff;
+    color: #02897a;
+}
+.price-green-box{
+    background: #02897a;
+    color: #fff;
+}
+.price-green-box .price-number, .price-green-box .price-valut{
+    color: #fff;
+}

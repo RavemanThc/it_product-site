@@ -1,0 +1,74 @@
+.users{
+    padding: 0 31px 0 32px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.users-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+font-size: 32px;
+text-align: center;
+color: #22343d;
+margin-bottom: 8px;
+width: 348px;
+}
+.users-title-paragraph{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+color: #22343d;
+margin-bottom: 40px;
+width: 338px;
+}
+.users-unlist{
+    display: flex;
+    flex-direction: column;
+    gap:32px
+}
+.users-list-left{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.users-unlist{
+    margin-bottom: 32px;
+    width: 340px;
+}
+.users-list{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
+}
+.user-image{
+    width: 90px;
+    height: 90px;
+}
+.users-list-paragraph{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #2f281e;
+width: 188px;
+}
+.users-button{
+    font-family: "Poppins", sans-serif;
+    width: 216px;
+    height: 53px;
+    border-radius: 4px;
+    background-color: #02897a;
+    font-weight: 700;
+font-size: 16px;
+color: #fff;
+}
+.users-paragraph-box{
+    width: 236px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
