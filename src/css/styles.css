@@ -5,22 +5,22 @@
   |============================
 */
 /* Common styles */
-@import url('/reset.css');
-@import url('/base.css');
-@import url('/container.css');
-@import url('/animations.css');
+@import url('/src/css/reset.css');
+@import url('/src/css/base.css');
+@import url('/src/css/container.css');
+@import url('/src/css/animations.css');
 
 /* Sections style */
-@import url('/header.css');
-@import url('/hero-section-title.css');
-@import url('/hero-sect.css');
-@import url('/management-page.css');
-@import url('/support-page-section.css');
-@import url('/colloborative.css');
-@import url('/users.css');
-@import url('/strategies.css');
-@import url('/price-table.css');
-@import url('/workers.css');
-@import url('/boost.css');
-@import url('/footer.css');
-@import url('/mobmenu.css');
+@import url('/src/css/header.css');
+@import url('/src/css/hero-section-title.css');
+@import url('/src/css/hero-sect.css');
+@import url('/src/css/management-page.css');
+@import url('/src/css/support-page-section.css');
+@import url('/src/css/colloborative.css');
+@import url('/src/css/users.css');
+@import url('/src/css/strategies.css');
+@import url('/src/css/price-table.css');
+@import url('/src/css/workers.css');
+@import url('/src/css/boost.css');
+@import url('/src/css/footer.css');
+@import url('/src/css/mobmenu.css');
