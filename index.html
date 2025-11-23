@@ -21,7 +21,7 @@
     <link rel="stylesheet" crossorigin href="/it_product-site/assets/styles-DKahJ2Eu.css">
   </head>
   <body>
-    <header class="header">
+    <header class="container header">
   <div class="header-box">
     <a href="index.html" class="nav-logo-img"
       ><picture>
@@ -109,7 +109,7 @@
   </div>
 </section>
 
-      <section class="hero-sect">
+      <section class="hero-sect" id="aboutUs">
   <div class="container hero-wrap">
     <!--Features-->
     <h2 class="specifically-title">Product was Built Specifically for You</h2>
@@ -420,7 +420,7 @@
   <button type="button" class="users-button">Contact our expert</button>
 </section>
 
-      <section class="container strategies">
+      <section class="container strategies" id="blog">
   <!--Collaborative-->
   <div class="strategies-box">
     <h2 class="strategies-title">Contents Strategies</h2>
@@ -722,14 +722,14 @@
       <picture>
         <source
           media="(min-width:1150px)"
-          srcset="../img/screen-desk-min.png, ../img/screen-desk@2x-min.png 2x"
+          srcset="/it_product-site/assets/screen-desk-min-B3l97Mpb.png, /it_product-site/assets/screen-desk@2x-min-DH3quNhK.png 2x"
         />
         <source
           media="(min-width:320px)"
-          srcset="../img/screen-mob-min.png, ../img/screen-mob@2x-min.png 2x"
+          srcset="/it_product-site/assets/screen-mob-min-BQY27IFr.png, /it_product-site/assets/screen-mob@2x-min-Cnjl7z9a.png 2x"
         />
         <img
-          src="../img/screen-desk-min.png"
+          src="/it_product-site/assets/screen-desk-min-B3l97Mpb.png"
           alt="avatar-gm"
           width="351"
           height="331"
@@ -864,7 +864,9 @@
       <form class="footer-form">
         <label for="subscribe"></label>
         <input
-          type="number"
+          type="email"
+          required
+          placeholder="email"
           id="subscribe"
           name="subscribe"
           class="footer-input-subscribe"
@@ -898,12 +900,12 @@
     <nav class="mobmenu-navigation">
       <ul class="footer-navigation-unlist">
         <li>
-          <a href="http://" target="_blank" rel="noopener noreferrer"
+          <a href="#aboutUs" class="mob-menu-link" rel="noopener noreferrer" link-menu-close
             >About Us</a
           >
         </li>
         <li>
-          <a href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
+          <a href="#blog" rel="noopener noreferrer" class="mob-menu-link" link-menu-close>Blog</a>
         </li>
         <li>
           <a href="http://" target="_blank" rel="noopener noreferrer"
